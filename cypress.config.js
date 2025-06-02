@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: "https://staging-fuse-aws.flatirons.com",
-    experimentalStudio: true,
+    video: true,
+    screenshotOnRunFailure: true,
   },
 });
