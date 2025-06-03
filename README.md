@@ -6,9 +6,9 @@ This repository contains Cypress tests for user authentication and sign-up funct
 
 ### 🏗 Folder Structure
 The test files are located in the `cypress/e2e/` folder:
-- **`CreateUser.cy.js`** - Executes form validation tests and creates a random user.
-- **`Login.cy.js`** - Tests the login page functionality, including email/password login and GitHub authentication.
-- **`NewUserLogin.spec.cy.js`** - A creative exercise where Cypress attempts to log in. If the user does not exist, it automatically navigates to the Sign-Up page. The test randomly selects between a new user or a fixed existing user (`mathias.pragmatica@gmail.com`).
+- **`CreateUser.cy.spec.js`** - Executes form validation tests and creates a random user.
+- **`Login.cy.spec.js`** - Tests the login page functionality, including email/password login and GitHub authentication.
+- **`NewUserLogin.spec.js`** - A creative exercise where Cypress attempts to log in. If the user does not exist, it automatically navigates to the Sign-Up page. The test randomly selects between a new user or a fixed existing user (`mathias.pragmatica@gmail.com`).
 
 Additionally, the **`cypress.config.js`** file is located in the **root directory** and serves as the main Cypress configuration file. It defines settings such as test environments, default timeouts, and browser configurations.
 
